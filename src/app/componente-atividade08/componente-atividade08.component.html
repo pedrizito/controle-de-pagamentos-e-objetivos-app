@@ -1,0 +1,22 @@
+<div [ngStyle]="{'margin':'200px'}">
+    <h1>USANDO DATA-BINDING E MASCARA DE FORMULÁRIO</h1>
+    <p>CALCULADORA ULTRASIMPLES; DIGITE UMA OPERAÇAO NO PRIMEIRO CAMPO E O NÚMEROS NOS OUTROS DOIS, SÓ FUNCIONA SOMAR E MULTIPLICAR</p>
+    <form>
+        <input 
+        name="operacao"
+        type="text"
+        [(ngModel)]="this.operacao"/>
+        <input 
+        type="number"
+        name="valor1"
+        [(ngModel)]="this.valor1"/>
+        <input 
+        type="number"
+        name="valor2"
+        [(ngModel)]="this.valor2"/>
+        <button type="button" (click)="this.onButtonClick()">EXECUTAR</button>
+    </form>
+</div>
+
+<p style="background-color: aqua;font-size: 25px;font-weight: bold;" [ngStyle]="{'display': (this.resultado != 0) ? 'block' : 'none'}">{{ this.resultado }}</p>
+

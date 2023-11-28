@@ -3,18 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Atividade07Componente01Component } from './atividade07-componente01/atividade07-componente01.component';
-import { Atividade07Componente02Component } from './atividade07-componente02/atividade07-componente02.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { ComponenteAtividade08Component } from './componente-atividade08/componente-atividade08.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    Atividade07Componente01Component,
-    Atividade07Componente02Component
+    FooterComponent,
+    HeaderComponent,
+    ComponenteAtividade08Component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
