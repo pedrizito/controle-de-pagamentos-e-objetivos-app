@@ -1,0 +1,22 @@
+.container{
+    background-color: chocolate;
+}
+
+.background-purple{
+    background-color: purple;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+}
+
+.container-2{
+    background-color: azure;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container-2 div{
+    height: 70px;
+    width: 100%;
+}

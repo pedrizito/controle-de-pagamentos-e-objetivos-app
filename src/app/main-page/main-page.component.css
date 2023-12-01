@@ -1,0 +1,22 @@
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    min-height: calc(100vh - 220px);
+    background-color: #10c2e6;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn{
+    display: flex;
+    flex-basis: 20px;    
+    align-items: center;
+    width: 345px;
+    height: 197px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;    
+}
+

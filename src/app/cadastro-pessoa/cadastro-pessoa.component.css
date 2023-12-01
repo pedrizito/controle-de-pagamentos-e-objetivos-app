@@ -1,0 +1,6 @@
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    min-height: calc(100vh - 220px);
+    background-color: #10c2e6;
+}

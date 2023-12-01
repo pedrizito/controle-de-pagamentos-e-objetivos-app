@@ -1,0 +1,12 @@
+<div class="azul">
+    <h1>Atributos do componentes pai:</h1>
+    <p>{{ nome }}  {{ sobrenome }}</p>
+    <br>
+    <br>
+    <br>
+    <form>
+        <label class="bold-24px" for="idade">Insira a idade:</label>
+        <input type="number" name="idade" #idadeValor>
+        <button class="btn" (click)="informarIdade(+idadeValor.value)">SUBMETER IDADE PARA CLASSE PAI</button>
+    </form>
+</div>
