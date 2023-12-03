@@ -9,10 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { MainPageComponent } from './main-page/main-page.component';
 import { CadastroPessoaComponent } from './cadastro-pessoa/cadastro-pessoa.component';
 import { CadastroCompraComponent } from './cadastro-compra/cadastro-compra.component';
-import { ComponenteAtividade09Component } from './componente-atividade09/componente-atividade09.component';
-import { ComponenteAuxiliarAtividade09Component } from './componente-auxiliar-atividade09/componente-auxiliar-atividade09.component';
-import { ViewChildComponentComponent } from './view-child-component/view-child-component.component';
-import { ViewChildAuxiliarComponent } from './view-child-auxiliar/view-child-auxiliar.component';
+import { ComponenteAtividade10Component } from './componente-atividade10/componente-atividade10.component';
 
 @NgModule({
   declarations: [
@@ -22,10 +19,7 @@ import { ViewChildAuxiliarComponent } from './view-child-auxiliar/view-child-aux
     MainPageComponent,
     CadastroPessoaComponent,
     CadastroCompraComponent,
-    ComponenteAtividade09Component,
-    ComponenteAuxiliarAtividade09Component,
-    ViewChildComponentComponent,
-    ViewChildAuxiliarComponent
+    ComponenteAtividade10Component
   ],
   imports: [
     BrowserModule,
