@@ -1,0 +1,53 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "Pedro Marbeira",
+      "vinculo": "Tio",
+      "cpf": "123.123.123-12",
+      "salario": 3500
+    },
+    {
+      "id": 2,
+      "nome": "João Marbeira",
+      "vinculo": "Tio",
+      "cpf": "123.123.321-55",
+      "salario": 5000
+    },
+    {
+      "id": 3,
+      "nome": "Fernanda Marbeira",
+      "vinculo": "Mãe",
+      "cpf": "222.222.222-11",
+      "salario": 7000
+    },
+    {
+      "id": 4,
+      "nome": "Eclesio Marbeira",
+      "vinculo": "Filho",
+      "cpf": "999.999.999-99",
+      "salario": 1200
+    },
+    {
+      "nome": "Pedro Monteiro",
+      "vinculo": "Tio",
+      "cpf": "491.657.278-51",
+      "salario": 4444,
+      "id": 5
+    }
+  ],
+  "compras": [
+    {
+      "id": 1,
+      "objetivo": "Portão Principal",
+      "valor total": 3600,
+      "userId": [
+        1,
+        2,
+        3
+      ],
+      "parcelas": 3,
+      "valor parcial": 1200
+    }
+  ]
+}

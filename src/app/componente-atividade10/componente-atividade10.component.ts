@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { Pessoa } from '../model/pessoa';
 import { NgForm } from '@angular/forms';
 import { PessoaService } from './pessoa.service';
+import { AbstracaoPessoaServiceService } from '../consulta-pessoa/abstracao-pessoa-service.service';
 
 @Component({
   selector: 'app-componente-atividade10',
@@ -13,7 +14,7 @@ export class ComponenteAtividade10Component implements OnInit {
   pessoa!: Pessoa;
   pessoas?: Pessoa[];
 
-  constructor(private service: PessoaService) { }
+  constructor(private service: PessoaService, private service2: AbstracaoPessoaServiceService) { }
 
   ngOnInit(): void {
     this.pessoa = new Pessoa("", "","",0);
@@ -21,6 +22,7 @@ export class ComponenteAtividade10Component implements OnInit {
   }
 
   onSubmit(){
+    this.service2.salvar(this.pessoa);
     this.service.salvar(this.pessoa);
     this.form.reset();
     this.pessoa = new Pessoa('', '', '', 0);

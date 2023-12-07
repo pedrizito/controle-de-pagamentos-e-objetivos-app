@@ -1,4 +1,65 @@
 <div class="container">
-    cadastro pessoa
-    <a [routerLink]="['']" class="btn">voltar</a>
+   <div class="container-1">
+        <div>
+            <form class="form-container" #form="ngForm">
+                <div class="input-field1">
+                    <label for="input-name">Nome</label>
+                    <input
+                    id="input-name"
+                    name="input-name"
+                    type="text"
+                    class="validate"
+                    [(ngModel)]="this.pessoa.nome"
+                    pattern="^(\s?[A-ZÀ-Ú][a-zà-ú]*)+(\s[a-zà-ú]*)?(\s[A-ZÀ-Ú][a-zà-ú]*)+"
+                    #name="ngModel"
+                    required>     
+                </div>
+                <div class="input-field1">
+                    <label for="input-vinculo">Vinculo</label>
+                    <input
+                    id="input-vinculo"
+                    name="input-vinculo"
+                    type="text"
+                    class="validate"
+                    [(ngModel)]="this.pessoa.vinculo"
+                    pattern="(\s?[A-ZÀ-Ú]*[a-zà-ú]*)"
+                    #vinculo="ngModel"
+                    required>   
+                </div>
+                <div class="input-field1">
+                        <label for="input-cpf">CPF</label>
+                        <input
+                        id="input-cpf"
+                        name="input-cpf"
+                        type="text"
+                        class="validate"
+                        [(ngModel)]="this.pessoa.cpf"
+                        pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"
+                        #cpf="ngModel"
+                        required>                    
+                </div>
+                <div class="input-field1">
+                    <label for="input-salario">Sálario</label>
+                    <input
+                    id="input-salario"
+                    name="input-salario"
+                    type="number"
+                    class="validate"
+                    [(ngModel)]="this.pessoa.salario"
+                    #salario="ngModel"
+                    required>      
+                </div>    
+            </form>
+            <br>
+            <div class="red-text" [hidden]="form.valid">
+                Os campos com astericos são obrigatórios.
+            </div>
+        </div>
+        <div class="container-1-2">
+            <button (click)="onSubmit()" class="btn" type="submit" [disabled]="!form.valid">SALVAR</button>
+            <button (click)="onDelete()" class="btn" type="submit" [disabled]="!form.valid">DELETAR</button>
+        </div>
+   </div>
+
+    <app-consulta-pessoa [pessoas]="pessoas" (newPessoaEvent)="recuperarPessoaDoEvento($event)"></app-consulta-pessoa>
 </div>

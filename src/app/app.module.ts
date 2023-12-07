@@ -10,6 +10,9 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { CadastroPessoaComponent } from './cadastro-pessoa/cadastro-pessoa.component';
 import { CadastroCompraComponent } from './cadastro-compra/cadastro-compra.component';
 import { ComponenteAtividade10Component } from './componente-atividade10/componente-atividade10.component';
+import { ConsultaCompraComponent } from './consulta-compra/consulta-compra.component';
+import { ConsultaPessoaComponent } from './consulta-pessoa/consulta-pessoa.component';
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,12 +22,15 @@ import { ComponenteAtividade10Component } from './componente-atividade10/compone
     MainPageComponent,
     CadastroPessoaComponent,
     CadastroCompraComponent,
-    ComponenteAtividade10Component
+    ComponenteAtividade10Component,
+    ConsultaCompraComponent,
+    ConsultaPessoaComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

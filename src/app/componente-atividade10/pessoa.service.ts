@@ -5,8 +5,7 @@ import { Pessoa } from '../model/pessoa';
   providedIn: 'root'
 })
 export class PessoaService {
-  pessoas!: Pessoa[];
-
+  
   constructor() { 
   }
 

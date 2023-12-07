@@ -1,4 +1,5 @@
 export class Pessoa {
+    id!: number;
     nome!: string;
     vinculo!: string;
     cpf!: string;
