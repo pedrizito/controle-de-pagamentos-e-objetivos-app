@@ -4,7 +4,7 @@ import { CompraService } from '../service/compra.service';
 import { Pessoa } from '../model/pessoa';
 import { AbstracaoPessoaServiceService } from '../consulta-pessoa/abstracao-pessoa-service.service';
 import { NgForm } from '@angular/forms';
-import { ConsultaCompraComponent } from '../consulta-compra/consulta-compra.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cadastro-compra',
@@ -13,13 +13,13 @@ import { ConsultaCompraComponent } from '../consulta-compra/consulta-compra.comp
 })
 export class CadastroCompraComponent implements OnInit, OnChanges {
 
-  compras!: Compra[];
+  compras: Compra[] = [];
   pessoasLista: Pessoa[] = this.auxiliar.consultarTodos();
   pessoasSelecionadas: Pessoa[] = [];
   compra:Compra = new Compra("", 0, this.pessoasLista, 0, 0);
   @ViewChild('form') form!: NgForm;
 
-  constructor(private service:CompraService, private auxiliar: AbstracaoPessoaServiceService) { 
+  constructor(private service:CompraService, private auxiliar: AbstracaoPessoaServiceService, private router:Router) { 
   }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -35,11 +35,10 @@ export class CadastroCompraComponent implements OnInit, OnChanges {
   }
 
   onSubmit(){
-    this.service.salvar(this.compra);
+    this.service.salvar(this.compra).subscribe({complete: () => (console.log(this.consultarTodos()))});
     this.pessoasSelecionadas = [];
     this.form.reset();
     this.compra.pessoas = [];
-    this.consultarTodos();
   }
 
   recuperarDadosFilho(pessoas:Pessoa[]){
@@ -53,15 +52,13 @@ export class CadastroCompraComponent implements OnInit, OnChanges {
   }
 
   onDelete(){
-    this.service.deletar(this.compra);
+    this.service.deletar(this.compra).subscribe({complete: () => (console.log(this.consultarTodos()))});
     this.pessoasSelecionadas = [];
     this.form.reset();
     this.compra.pessoas = [];
     this.compras = [];
     this.consultarTodos();
-  }
- 
- 
+  } 
 
   mudarValor(){
     this.compra.valorParcial = this.compra.valorTotal / this.compra.parcelas;

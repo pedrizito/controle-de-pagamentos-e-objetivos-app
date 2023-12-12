@@ -38,7 +38,7 @@ a:hover{
     display: grid;
     grid-template-columns: 1fr 6fr;
     background-color: #fff;
-    width: 400px;
+    width: 460px;
     padding: 0px;
     margin: 0px;
 }
@@ -46,7 +46,8 @@ a:hover{
 
 .container-height-limit{
     max-height: 300px;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 
