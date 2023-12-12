@@ -1,0 +1,28 @@
+<div class="container">
+    <h3 class="">Usuários cadastrados</h3>
+     <table>
+     <thead>
+         <tr>
+         <th>Objetivo</th>
+         <th>Valor Total</th>
+         <th>Pessoas</th>
+         <th>Parcelas</th>
+         <th>Valor Parcial</th>
+         <th></th>
+         </tr>
+     </thead>
+ 
+     <tbody>
+         <tr *ngFor="let u of compras">
+             <td>{{ u.objetivo }}</td>
+             <td>{{ u.valorTotal | currency: "BRL" }}</td>
+             <td><p *ngFor="let p of u.pessoas">{{ p.nome }}</p></td>
+             <td>{{ u.parcelas }}</td>
+             <td>{{ u.valorParcial | currency: "BRL" }}</td>
+             <td>
+             <a (click)="transmitirDados(u)" class="hand-mouse"><i class="material-icons">edit</i></a>
+             </td>
+         </tr>
+         </tbody>
+     </table>
+</div>

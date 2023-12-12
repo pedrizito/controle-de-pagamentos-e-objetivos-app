@@ -1,0 +1,76 @@
+<div class="container">
+    <div class="container-1">
+         <div>
+             <form class="form-container" #form="ngForm">
+                 <div class="input-field1">
+                     <label for="input-objetivo">Objetivo*</label>
+                     <input
+                     id="input-objetivo"
+                     name="input-objetivo"
+                     type="text"
+                     class="validate"
+                     [(ngModel)]="this.compra.objetivo"
+                     #objetivo="ngModel"
+                     required>     
+                 </div>
+                 <div class="input-field1">
+                    <label for="input-valorTotal">Valor Total*</label>
+                    <input
+                    id="input-valorTotal"
+                    name="input-valorTotal"
+                    type="number"
+                    class="validate"
+                    [(ngModel)]="this.compra.valorTotal"
+                    #valorTotal="ngModel"
+                    required>      
+                </div>
+                <div class="input-field1">
+                    <label for="input-valorTotal">Pessoas*</label>
+                    <div class="input-field2">
+                        <app-consulta-auxiliar-pessoa (newPessoasEvent)="recuperarDadosFilho($event)" [pessoasSelecionadas]="pessoasSelecionadas"></app-consulta-auxiliar-pessoa>
+                    </div>
+                </div>
+                <div class="input-field1">
+                    <label for="input-salario">Parcelas*</label>
+                    <input
+                    id="input-parcelas"
+                    name="input-parcelas"
+                    type="number"
+                    class="validate"
+                    [(ngModel)]="this.compra.parcelas"
+                    #parcelas="ngModel"
+                    required>      
+                </div>   
+                 <div class="input-field1">
+                     <label for="input-valorParcial">Valor Parcial*</label>
+                     <input
+                     id="input-valorParcial"
+                     name="input-valorParcial"
+                     type="number"
+                     class="validate"
+                     [(ngModel)]="this.compra.valorParcial"
+                     #valorParcial="ngModel"
+                     (click)="mudarValor()"
+                     required>      
+                 </div>    
+             </form>
+             <br>
+             <div class="red-text" [hidden]="form.valid">
+                 Os campos com astericos são obrigatórios.
+             </div>
+         </div>
+         <div class="container-1-2">
+             <button (click)="onSubmit()" class="btn" type="submit" [disabled]="!form.valid">SALVAR</button>
+             <button (click)="onDelete()" class="btn" type="submit" [disabled]="!form.valid">DELETAR</button>
+         </div>
+    </div>
+    <div class="container-height-limit">
+        <router-outlet>
+            <app-consulta-compra (newCompraEvent)="recuperarDadoFilho($event)" [compras]="compras"></app-consulta-compra>
+        </router-outlet>
+    </div>
+        
+   
+ </div>
+
+

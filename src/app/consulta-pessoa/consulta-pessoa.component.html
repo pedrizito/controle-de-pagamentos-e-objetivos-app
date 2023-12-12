@@ -1,0 +1,26 @@
+<div class="container" *ngIf="pessoas && pessoas!.length > 0">
+       <h3 class="">Usuários cadastrados</h3>
+        <table>
+        <thead>
+            <tr>
+            <th>Nome</th>
+            <th>CPF</th>
+            <th>Vínculo</th>
+            <th>Salário</th>
+            <th></th>
+            </tr>
+        </thead>
+    
+        <tbody>
+            <tr *ngFor="let u of pessoas">
+                <td>{{ u.nome }}</td>
+                <td>{{ u.cpf }}</td>
+                <td>{{ u.vinculo }}</td>
+                <td>{{ u.salario | currency: "BRL" }}</td>
+                <td class="right">
+                <a (click)="recuperarDadosPessoa(u)" class="hand-mouse"><i class="material-icons">edit</i></a>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+  </div>

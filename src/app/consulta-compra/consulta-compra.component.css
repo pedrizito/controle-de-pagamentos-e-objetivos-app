@@ -1,0 +1,21 @@
+a:hover{
+    cursor: grab;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    background-color: #10c2e6;
+}
+
+.container h3{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.container th{
+    font-weight: bold;
+    text-transform: uppercase;
+}
