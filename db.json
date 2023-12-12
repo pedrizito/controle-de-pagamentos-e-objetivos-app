@@ -10,7 +10,7 @@
     {
       "id": 2,
       "nome": "João Marbeira",
-      "vinculo": "Tio",
+      "vinculo": "Tia",
       "cpf": "123.123.321-55",
       "salario": 5000
     },
@@ -36,18 +36,5 @@
       "id": 5
     }
   ],
-  "compras": [
-    {
-      "id": 1,
-      "objetivo": "Portão Principal",
-      "valor total": 3600,
-      "userId": [
-        1,
-        2,
-        3
-      ],
-      "parcelas": 3,
-      "valor parcial": 1200
-    }
-  ]
+  "compras": []
 }

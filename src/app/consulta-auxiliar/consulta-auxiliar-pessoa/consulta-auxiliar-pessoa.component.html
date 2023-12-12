@@ -1,0 +1,16 @@
+<div class="tables-container">
+    <table>
+        <tbody>
+            <tr *ngFor="let u of pessoas">
+                <td (click)="selecionarPessoa(u)" (click)="recuperarDadosPessoas(this.pessoasSelecionadas)">{{ u.nome }}</td>
+            </tr>
+            </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr *ngFor="let u of pessoasSelecionadas">
+                <td (click)="selecionarPessoa(u)" (click)="recuperarDadosPessoas(this.pessoasSelecionadas)">{{ u.nome }}</td>
+            </tr>
+            </tbody>
+    </table>
+</div>
