@@ -1,40 +1,29 @@
 {
   "pessoas": [
     {
-      "id": 1,
-      "nome": "Pedro Marbeira",
-      "vinculo": "Tio",
+      "nome": "Thiago Monteiro",
+      "vinculo": "Irmão",
       "cpf": "123.123.123-12",
-      "salario": 3500
-    },
-    {
-      "id": 2,
-      "nome": "João Marbeira",
-      "vinculo": "Tia",
-      "cpf": "123.123.321-55",
-      "salario": 5000
-    },
-    {
-      "id": 3,
-      "nome": "Fernanda Marbeira",
-      "vinculo": "Mãe",
-      "cpf": "222.222.222-11",
-      "salario": 7000
-    },
-    {
-      "id": 4,
-      "nome": "Eclesio Marbeira",
-      "vinculo": "Filho",
-      "cpf": "999.999.999-99",
-      "salario": 1200
-    },
-    {
-      "nome": "Pedro Monteiro",
-      "vinculo": "Tio",
-      "cpf": "491.657.278-51",
-      "salario": 4444,
-      "id": 5
+      "salario": 5000,
+      "id": 1
     }
   ],
-  "compras": []
+  "compras": [
+    {
+      "objetivo": "Comprar Televisão",
+      "valorParcial": 500,
+      "valorTotal": 5000,
+      "pessoas": [
+        {
+          "nome": "Thiago Monteiro",
+          "vinculo": "Irmão",
+          "cpf": "123.123.123-12",
+          "salario": 5000,
+          "id": 1
+        }
+      ],
+      "parcelas": 10,
+      "id": 1
+    }
+  ]
 }

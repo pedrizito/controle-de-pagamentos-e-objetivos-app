@@ -32,3 +32,15 @@
     color: #10c2e6;
     font-weight: bold;
 }
+
+@media (max-width: 800px){
+    .container{
+        max-width: 700px;
+    }
+    .btn-large{
+        font-size: 10px !important;
+        max-width: 100px;
+        max-height: 100px;
+        word-wrap: break-word;
+    }
+}

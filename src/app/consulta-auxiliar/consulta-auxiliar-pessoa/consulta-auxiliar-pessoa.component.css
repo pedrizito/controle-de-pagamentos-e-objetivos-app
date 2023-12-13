@@ -1,5 +1,6 @@
 .tables-container{
     display: flex;
+    min-height: 100px;
 }
 
 table{

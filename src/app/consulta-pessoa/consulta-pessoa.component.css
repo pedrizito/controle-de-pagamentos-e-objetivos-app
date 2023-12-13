@@ -6,8 +6,7 @@ a:hover{
     margin: 0 auto;
     width: 1200px;
     max-height: fit-content;
-    background-color: #10c2e6;
-    overflow-x:auto;
+    background-color: #10c2e6;    
 }
 
 .container h3{
