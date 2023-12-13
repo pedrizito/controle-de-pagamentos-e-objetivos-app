@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="12.213139mm"
+   height="3.643163mm"
+   viewBox="0 0 122.13139 36.43163"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     showgrid="true"
+     inkscape:zoom="8.2243422"
+     inkscape:cx="25.473162"
+     inkscape:cy="-2.7357811"
+     inkscape:window-width="1920"
+     inkscape:window-height="1043"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g10">
+    <sodipodi:guide
+       position="60.078556,181.42009"
+       orientation="1,0"
+       id="guide1"
+       inkscape:locked="false" />
+    <inkscape:grid
+       id="grid1"
+       units="mm"
+       originx="-64.743988"
+       originy="-60.759824"
+       spacingx="0.99999999"
+       spacingy="0.99999999"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+    <sodipodi:guide
+       position="-17.645993,135.60893"
+       orientation="0,-1"
+       id="guide2"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="110.03171,147.38293"
+       orientation="1,0"
+       id="guide3"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="10.406908,172.92701"
+       orientation="1,0"
+       id="guide4"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <rect
+       x="436.93665"
+       y="263.93689"
+       width="80.609093"
+       height="44.020378"
+       id="rect6" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-64.743984,-60.759823)">
+    <g
+       id="g10">
+      <ellipse
+         style="fill:#10c2e6;fill-opacity:1;stroke:#10c2e6;stroke-width:0.952773;stroke-dasharray:none;stroke-opacity:1"
+         id="path9"
+         cx="124.77438"
+         cy="74.72345"
+         rx="30.04648"
+         ry="13.48724"
+         sodipodi:insensitive="true" />
+      <text
+         xml:space="preserve"
+         style="font-size:12.7px;display:inline;fill:#0caa24;fill-opacity:1;stroke:#0caa24;stroke-width:0.665001;stroke-dasharray:none;stroke-opacity:1"
+         x="120.97213"
+         y="78.606987"
+         id="text9"
+         sodipodi:insensitive="true"><tspan
+           sodipodi:role="line"
+           id="tspan9"
+           style="font-size:12.7px;fill:#0caa24;fill-opacity:1;stroke:#0caa24;stroke-width:0.665;stroke-opacity:1"
+           x="120.97213"
+           y="78.606987">$</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:#10c2e6;stroke-width:0.665001;stroke-dasharray:none;stroke-opacity:1"
+         x="64.797432"
+         y="96.011459"
+         id="text10"
+         sodipodi:insensitive="true"><tspan
+           sodipodi:role="line"
+           id="tspan10"
+           style="font-size:4.23333px;stroke:#10c2e6;stroke-width:0.665;stroke-opacity:1"
+           x="64.797432"
+           y="96.011459">SISTEMA DE GERENCIAMENTO DE COMPRAS E OBJETIVOS</tspan></text>
+    </g>
+  </g>
+</svg>
