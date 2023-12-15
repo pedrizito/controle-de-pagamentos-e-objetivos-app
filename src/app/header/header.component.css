@@ -3,11 +3,7 @@
     height: fit-content;
 }
 
-.container{
-    width: 1200px;
-}
-
-.img-logo{
+.brand-logo {
     width: 200px;
     height: 55px;
     background-image: url("../../assets/resources/images/logo.svg");
@@ -15,32 +11,17 @@
     background-size: cover;
 }
 
-.nav-bar{
+.nav-wrapper {
     background-color: #0caa24;
-    height: 140px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
-.nav-menu a{
-    margin-left: 20px;
-}
-
-.btn-large{
+.btn{
     background-color: #10E630;
     color: #10c2e6;
     font-weight: bold;
 }
 
-@media (max-width: 800px){
-    .container{
-        max-width: 700px;
-    }
-    .btn-large{
-        font-size: 10px !important;
-        max-width: 100px;
-        max-height: 100px;
-        word-wrap: break-word;
-    }
+.sidenav-overlay{
+    z-index: none !important;
+    height: 100vh !important;
 }

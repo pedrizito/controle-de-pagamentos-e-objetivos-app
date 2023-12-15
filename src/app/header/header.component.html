@@ -1,9 +1,25 @@
-<header class="container">
-    <nav class="nav-bar">
-        <a class="img-logo" href="#"></a>
-        <div class="nav-menu">
-            <a [routerLink]="['pessoa']" class="waves-effect waves-light btn-large" href="">Cadastrar Pessoa</a>
-            <a [routerLink]="['compra']" class="waves-effect waves-light btn-large" href="">Cadastrar Compra</a>
+<div class="navbar-fixed"> 
+    <nav>
+        <div class="nav-wrapper">
+        <a href="#" class="brand-logo right"></a>
+        <a href="#" data-target="mobile-links" class="sidenav-trigger">
+            <i class="material-icons">menu</i>
+          </a>
+        <ul class="left hide-on-med-and-down">
+            <li><a [routerLink]="['pessoa']" class="waves-effect waves-light btn" href="">Cadastrar Pessoa</a></li>
+            <li><a [routerLink]="['compra']" class="waves-effect waves-light btn" href="">Cadastrar Compra</a></li>
+        </ul>
         </div>
     </nav>
-</header>
+
+</div>
+
+<ul class="sidenav amber" id="mobile-links" #mobile>
+    <li><a [routerLink]="['pessoa']" class="waves-effect waves-light btn" href="">Cadastrar Pessoa</a></li>
+    <li><a [routerLink]="['compra']" class="waves-effect waves-light btn" href="">Cadastrar Compra</a></li>
+</ul>
+
+
+
+
+
