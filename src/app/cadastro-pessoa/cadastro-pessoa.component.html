@@ -29,6 +29,10 @@
                 <div class="input-field1">
                         <label for="input-cpf">CPF*</label>
                         <input
+                        mask="separator" 
+                     thousandSeparator="."
+                     decimalMarker=","
+                     prefix="R$"
                         id="input-cpf"
                         name="input-cpf"
                         type="text"
@@ -41,9 +45,13 @@
                 <div class="input-field1">
                     <label for="input-salario">Salário*</label>
                     <input
+                    mask="separator" 
+                     thousandSeparator="."
+                     decimalMarker=","
+                     prefix="R$"
                     id="input-salario"
                     name="input-salario"
-                    type="number"
+                    type="text"
                     class="validate"
                     [(ngModel)]="this.pessoa.salario"
                     #salario="ngModel"

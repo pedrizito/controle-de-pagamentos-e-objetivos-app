@@ -44,9 +44,13 @@
                  <div class="input-field1">
                      <label for="input-valorParcial">Valor Parcial*</label>
                      <input
+                     mask="separator" 
+                     thousandSeparator="."
+                     decimalMarker=","
+                     prefix="R$"
                      id="input-valorParcial"
                      name="input-valorParcial"
-                     type="number"
+                     type="text"
                      class="validate"
                      [(ngModel)]="this.compra.valorParcial"
                      #valorParcial="ngModel"

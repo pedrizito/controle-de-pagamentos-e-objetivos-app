@@ -1,4 +1,43 @@
 {
-  "pessoas": [],
-  "compras": []
+  "pessoas": [
+    {
+      "nome": "Pedro Monteiro",
+      "vinculo": "Tio",
+      "cpf": "555.555.555-44",
+      "salario": 556475.45,
+      "id": 1
+    },
+    {
+      "nome": "João Teste Marbeira",
+      "vinculo": "Tio",
+      "cpf": "555.555.555-44",
+      "salario": 124567,
+      "id": 2
+    }
+  ],
+  "compras": [
+    {
+      "objetivo": "Comprar Televisão",
+      "valorParcial": 700,
+      "valorTotal": 3500,
+      "pessoas": [
+        {
+          "nome": "Pedro Monteiro",
+          "vinculo": "Tio",
+          "cpf": "555.555.555-44",
+          "salario": 556475.45,
+          "id": 1
+        },
+        {
+          "nome": "João Teste Marbeira",
+          "vinculo": "Tio",
+          "cpf": "555.555.555-44",
+          "salario": 124567,
+          "id": 2
+        }
+      ],
+      "parcelas": 5,
+      "id": 1
+    }
+  ]
 }
