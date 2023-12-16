@@ -1,4 +1,4 @@
-<div class="container">
+<div class="container-cadastro-compra">
     <div class="container-1">
          <div>
              <form class="form-container" #form="ngForm">
@@ -63,14 +63,13 @@
              <button (click)="onSubmit()" class="btn" type="submit" [disabled]="!form.valid">SALVAR</button>
              <button (click)="onDelete()" class="btn" type="submit" [disabled]="!form.valid">DELETAR</button>
          </div>
-    </div>
+    </div>  
     <div class="container-height-limit">
         <router-outlet>
             <app-consulta-compra (newCompraEvent)="recuperarDadoFilho($event)" [compras]="compras"></app-consulta-compra>
         </router-outlet>
-    </div>
-        
-   
+    </div>    
  </div>
+        
 
 

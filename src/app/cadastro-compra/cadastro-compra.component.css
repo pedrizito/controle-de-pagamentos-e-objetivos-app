@@ -1,9 +1,8 @@
-.container{
-    margin: 0 auto;
-    width: 1200px;
-    min-height: calc(100vh - 220px);
+.container-cadastro-compra{
+    min-height: 86vh;
     background-color: #10c2e6;
     display: grid;
+    gap: 20px;
 }
 
 .container-1{
@@ -26,10 +25,10 @@ a:hover{
 }
 
 .form-container{
+    margin-top: 50px;
     min-height: 300px;
     display: flex;
     flex-direction: column;
-    margin-top: 30px;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -47,7 +46,7 @@ a:hover{
 .container-height-limit{
     max-height: 300px;
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 
@@ -71,3 +70,51 @@ label{
     color: #000;
     font-size: 20px;
 }
+
+@media (max-width: 992px) {
+    .container-cadastro-compra{
+        min-height: 87vh;
+    }    
+}
+
+@media (max-width: 730px) {
+    .container-1 {
+        flex-direction: row;
+        justify-content: space-around;
+    }    
+}
+
+@media (max-width: 680px) {
+    .container-1-2{
+        margin-top: 20px;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 30px;
+        min-height: fit-content;
+    }
+    .btn{
+        width: 100px;
+        height: 40px;
+      font-size: 12px;        
+    }   
+}
+
+@media (max-width: 600px) {
+    .container-cadastro-compra{
+        min-height: 88vh;
+    }
+    .input-field1 {
+        width: 360px;
+    }   
+    input{    
+        width: 300px;
+    }   
+}
+
+
+
+
+
+
+
+

@@ -1,9 +1,9 @@
-<div class="container">
-   <div class="container-1">
+  <div class="container-cadastro-pessoa">
+    <div class="container-1">
         <div>
             <form class="form-container" #form="ngForm">
                 <div class="input-field1">
-                    <label for="input-name">Nome</label>
+                    <label for="input-name">Nome*</label>
                     <input
                     id="input-name"
                     name="input-name"
@@ -15,7 +15,7 @@
                     required>     
                 </div>
                 <div class="input-field1">
-                    <label for="input-vinculo">Vinculo</label>
+                    <label for="input-vinculo">Vinculo*</label>
                     <input
                     id="input-vinculo"
                     name="input-vinculo"
@@ -27,7 +27,7 @@
                     required>   
                 </div>
                 <div class="input-field1">
-                        <label for="input-cpf">CPF</label>
+                        <label for="input-cpf">CPF*</label>
                         <input
                         id="input-cpf"
                         name="input-cpf"
@@ -39,7 +39,7 @@
                         required>                    
                 </div>
                 <div class="input-field1">
-                    <label for="input-salario">Salário</label>
+                    <label for="input-salario">Salário*</label>
                     <input
                     id="input-salario"
                     name="input-salario"
@@ -58,8 +58,13 @@
         <div class="container-1-2">
             <button (click)="onSubmit()" class="btn" type="submit" [disabled]="!form.valid">SALVAR</button>
             <button (click)="onDelete()" class="btn" type="submit" [disabled]="!form.valid">DELETAR</button>
-        </div>
+        </div>        
    </div>
+    <div class="consulta">
+        <app-consulta-pessoa [pessoas]="pessoas" (newPessoaEvent)="recuperarPessoaDoEvento($event)"></app-consulta-pessoa>
+   </div>
+  </div>
+  
 
-    <app-consulta-pessoa [pessoas]="pessoas" (newPessoaEvent)="recuperarPessoaDoEvento($event)"></app-consulta-pessoa>
-</div>
+
+

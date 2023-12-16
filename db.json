@@ -1,36 +1,4 @@
 {
-  "pessoas": [
-    {
-      "nome": "Thiago Monteiro",
-      "vinculo": "Irmão",
-      "cpf": "123.123.123-12",
-      "salario": 5000,
-      "id": 1
-    },
-    {
-      "nome": "João Teste Marbeira",
-      "vinculo": "Tio",
-      "cpf": "222.222.222-55",
-      "salario": 3000,
-      "id": 2
-    }
-  ],
-  "compras": [
-    {
-      "objetivo": "Comprar Televisão",
-      "valorParcial": 350,
-      "valorTotal": 3500,
-      "pessoas": [
-        {
-          "nome": "João Teste Marbeira",
-          "vinculo": "Tio",
-          "cpf": "222.222.222-55",
-          "salario": 3000,
-          "id": 2
-        }
-      ],
-      "parcelas": 10,
-      "id": 1
-    }
-  ]
+  "pessoas": [],
+  "compras": []
 }

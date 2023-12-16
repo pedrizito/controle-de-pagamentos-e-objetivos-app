@@ -7,3 +7,7 @@ table{
     display: inline-block !important;
     width: 50% !important;
 }
+
+td:hover{
+    cursor: grab;
+}
