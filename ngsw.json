@@ -1,0 +1,109 @@
+{
+  "configVersion": 1,
+  "timestamp": 1702763809530,
+  "index": "/controle-de-pagamentos-e-objetivos-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/controle-de-pagamentos-e-objetivos-app/favicon.ico",
+        "/controle-de-pagamentos-e-objetivos-app/index.html",
+        "/controle-de-pagamentos-e-objetivos-app/main.05fb9158be3f7fda.js",
+        "/controle-de-pagamentos-e-objetivos-app/manifest.webmanifest",
+        "/controle-de-pagamentos-e-objetivos-app/polyfills.55d4ccbb53df102f.js",
+        "/controle-de-pagamentos-e-objetivos-app/runtime.f5e8f2fb2f3c067b.js",
+        "/controle-de-pagamentos-e-objetivos-app/styles.0fa1834d9e61c304.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-128x128.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-144x144.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-152x152.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-192x192.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-384x384.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-512x512.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-72x72.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-96x96.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/images/image.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/resources/images/image.png",
+        "/controle-de-pagamentos-e-objetivos-app/assets/resources/images/logo.svg",
+        "/controle-de-pagamentos-e-objetivos-app/logo.b4e79f6e8f12d2a5.svg",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons-outlined.78a93b2079680a08.woff",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons-outlined.f86cb7b0aa53f0fe.woff2",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons-round.92dc7ca2f4c591e7.woff",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons-round.b10ec9db5b7fbc74.woff2",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons-sharp.3885863ee4746422.woff2",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons-sharp.a71cb2bf66c604de.woff",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons-two-tone.588d63134de807a7.woff",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons-two-tone.675bd578bd14533e.woff2",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons.4ad034d2c499d9b6.woff",
+        "/controle-de-pagamentos-e-objetivos-app/material-icons.59322316b3fd6063.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/controle-de-pagamentos-e-objetivos-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/controle-de-pagamentos-e-objetivos-app/assets/images/image.png": "cf724bbbcc9e7984e4c333242532de74497bb1a2",
+    "/controle-de-pagamentos-e-objetivos-app/assets/resources/images/image.png": "cf724bbbcc9e7984e4c333242532de74497bb1a2",
+    "/controle-de-pagamentos-e-objetivos-app/assets/resources/images/logo.svg": "2827f14ae31d260b3a56a1793d00c998e466c591",
+    "/controle-de-pagamentos-e-objetivos-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/controle-de-pagamentos-e-objetivos-app/index.html": "846d72f32a54b878f74164e97e8e04ef3e670e27",
+    "/controle-de-pagamentos-e-objetivos-app/logo.b4e79f6e8f12d2a5.svg": "2827f14ae31d260b3a56a1793d00c998e466c591",
+    "/controle-de-pagamentos-e-objetivos-app/main.05fb9158be3f7fda.js": "62cfe594470a4065c1c5ce795e8e7e2647f9a9ac",
+    "/controle-de-pagamentos-e-objetivos-app/manifest.webmanifest": "c80819388fd695f3c9b1fc879abf1e80323e8f48",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons-outlined.78a93b2079680a08.woff": "b52ccd8fca4199d257b2a9fe377db29862f2853e",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons-outlined.f86cb7b0aa53f0fe.woff2": "2f9e28ab559782402f27332633c843c40209d95a",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons-round.92dc7ca2f4c591e7.woff": "c41bfee3f01218e18d53f4f4cac00f385ac9fbb1",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons-round.b10ec9db5b7fbc74.woff2": "abe05e0641f1050fbe00ef0dbb10c5ea72c26cff",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons-sharp.3885863ee4746422.woff2": "cf1c7b4d066d18af44cf7bc664dd2e46652a3a30",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons-sharp.a71cb2bf66c604de.woff": "829cb48cb2dd17ae5e425b82dc186eb670694a10",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons-two-tone.588d63134de807a7.woff": "02225d888afe4eebc7312b7432878dc8aef1f50f",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons-two-tone.675bd578bd14533e.woff2": "296ff0bff395a77c2e33e7e31fffe73980bd93cf",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons.4ad034d2c499d9b6.woff": "e4bb7c1e40d3febee58df963db276b2bf68c117b",
+    "/controle-de-pagamentos-e-objetivos-app/material-icons.59322316b3fd6063.woff2": "0bc0c675480d94ec7e8609dda6227f88c5d08d2c",
+    "/controle-de-pagamentos-e-objetivos-app/polyfills.55d4ccbb53df102f.js": "01b244e12cfe47d660f7db64cca373b485368faf",
+    "/controle-de-pagamentos-e-objetivos-app/runtime.f5e8f2fb2f3c067b.js": "c44d80996268ceb9f0803f676853eca66f21258a",
+    "/controle-de-pagamentos-e-objetivos-app/styles.0fa1834d9e61c304.css": "ddc1ad301f6fea643877e8e6f0058031835d24ad"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
