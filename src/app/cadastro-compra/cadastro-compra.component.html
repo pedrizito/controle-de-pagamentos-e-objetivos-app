@@ -16,9 +16,13 @@
                  <div class="input-field1">
                     <label for="input-valorTotal">Valor Total*</label>
                     <input
+                    mask="separator" 
+                     thousandSeparator="."
+                     decimalMarker=","
+                     prefix="R$"
                     id="input-valorTotal"
                     name="input-valorTotal"
-                    type="number"
+                    type="text"
                     class="validate"
                     [(ngModel)]="this.compra.valorTotal"
                     #valorTotal="ngModel"
