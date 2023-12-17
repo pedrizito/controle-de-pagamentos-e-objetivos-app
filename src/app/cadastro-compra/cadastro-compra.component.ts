@@ -39,6 +39,7 @@ export class CadastroCompraComponent implements OnInit, OnChanges {
     this.pessoasSelecionadas = [];
     this.form.reset();
     this.compra.pessoas = [];
+    this.compra = new Compra("", 0, [], 0, 0);
   }
 
   recuperarDadosFilho(pessoas:Pessoa[]){
@@ -58,6 +59,8 @@ export class CadastroCompraComponent implements OnInit, OnChanges {
     this.compra.pessoas = [];
     this.compras = [];
     this.consultarTodos();
+    this.compra = new Compra("", 0, [], 0, 0);
+
   } 
 
   mudarValor(){

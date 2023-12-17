@@ -1,4 +1,12 @@
 {
-  "pessoas": [],
+  "pessoas": [
+    {
+      "nome": "João Teste Marbeira",
+      "vinculo": "Tio",
+      "cpf": "491.657.278-51",
+      "salario": 5000,
+      "id": 1
+    }
+  ],
   "compras": []
 }

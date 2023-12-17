@@ -38,5 +38,6 @@ export class CadastroPessoaComponent implements OnInit, OnChanges {
     this.service.deletar(this.pessoa);
     this.form.reset();
     this.pessoas = this.service.consultarTodos();
+    this.pessoa = new Pessoa("", "","",0);;
   }
 }
